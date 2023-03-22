@@ -14,14 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0c1830;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  color: rgb(165, 14, 14);
 }
 
 .App-link {
@@ -35,4 +35,55 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.product {
+  background-color: rgb(182, 129, 137);
+  padding: 10px;
+  margin: 20px;
+  border: 3px solid aqua;
+  border-radius: 20px;
+}
+
+.user {
+  background-color: rgb(182, 129, 137);
+  padding: 10px;
+  margin: 20px;
+  border: 3px solid aqua;
+  border-radius: 20px;
+}
+
+.post-container {
+  background-color: rgb(182, 129, 137);
+  padding: 10px;
+  margin: 20px;
+  border: 3px solid aqua;
+  border-radius: 20px;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn1 {
+  padding: 10px;
+  background-color: blueviolet;
+  border-radius: 10px;
+  color: beige;
+}
+.btn1:hover {
+  background-color: #61dafb;
+  color: rgb(165, 14, 14);
+}
+.btn2 {
+  padding: 10px;
+  background-color: #138f0b;
+  border-radius: 10px;
+  color: rgb(239, 235, 235);
+}
+.btn2:hover {
+  background-color: rgb(223, 226, 43);
+  color: rgb(232, 14, 14);
 }
